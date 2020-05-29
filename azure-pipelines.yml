@@ -4,4 +4,4 @@
     script: |
       curl -sSL https://download.sourceclear.com/ci.sh | DEBUG=1 bash 
       
-    WorkingDirectory:  '$(Build.SourcesDirectory)'
+     WorkingDirectory:  '$(system.DefaultWorkingDirectory)'
