@@ -3,4 +3,4 @@ pool: ownpool
 
   
 steps: 
-  - cd /Users/akapur/SupportTesting/example-dotnet && curl -sSL https://download.srcclr.com/ci.sh | DEBUG=1 bash
+  - cd '/Users/akapur/SupportTesting/example-dotnet' && curl -sSL https://download.srcclr.com/ci.sh | DEBUG=1 bash
