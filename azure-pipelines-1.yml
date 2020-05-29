@@ -6,7 +6,3 @@ pool: ownpool
     script: |
       srcclr scan /Users/akapur/SupportTesting/example-dotnet --debug --allow-dirty 
             |
-      
-      
-
-  
