@@ -1,7 +1,7 @@
-- task: Bash@3
+pool: ownpool
+
+- task: PowerShell@2
   inputs:
     targetType: 'inline'
     script: |
-      curl -sSL https://download.sourceclear.com/ci.sh | DEBUG=1 bash 
-      
-     WorkingDirectory:  '$(system.DefaultWorkingDirectory)'
+     echo "hello world"
