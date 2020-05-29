@@ -1,0 +1,6 @@
+pool: ownpool
+  
+
+steps:
+- script: echo Hello, world!
+  
