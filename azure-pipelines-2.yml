@@ -2,5 +2,6 @@ pool: ownpool
 
 
 steps:
-  - cd /Users/akapur/SupportTesting/example-dotnet
+  - bash: cd /Users/akapur/SupportTesting/example-dotnet
+  - bash: export SRCCLR_API_TOKEN=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTQ2MjQzLCJleHAiOjE1OTA3NTU4OTAsImF1dGhvcml0aWVzIjoiQUdFTlQiLCJqdGkiOiJjM2Y4NGI4Mi01ZTk3LTQzNTAtYmQ3My1lMmNhMzJlZGVhZTMiLCJjbGllbnRfaWQiOiIiLCJzY29wZSI6W119.lmdgETSCg8fxtUcZrAKpZqpn_dZN2JRtBoi9vM2qVfPeuGnu51G9S2uk_cWEcW1SfWIWVxgGNRye6IidRohzdXyYM9f-HvrQvLkGvYCKdDPM6Ea0sAUDE6utLxQixK1JrYS3TgfQ_eBYiDBhGaqyjNJabFQriTqFNQY07c_nRvA
   - bash:  curl -sSL https://download.srcclr.com/ci.sh | DEBUG=1 bash
