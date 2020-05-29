@@ -1,6 +1,12 @@
 pool: ownpool
   
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd /Users/akapur/SupportTesting/example-dotnet
+      srcclr scan --debug --allow-dirty
+      
+      
 
-steps:
-- script: echo Hello, world!
   
