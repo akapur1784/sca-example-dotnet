@@ -2,5 +2,5 @@ pool: ownpool
 
 
 steps:
-  - cd '/Users/akapur/SupportTesting/example-dotnet'
+  - cd /Users/akapur/SupportTesting/example-dotnet
   - bash:  curl -sSL https://download.srcclr.com/ci.sh | DEBUG=1 bash
