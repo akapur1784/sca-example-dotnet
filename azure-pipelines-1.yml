@@ -4,7 +4,8 @@ pool: ownpool
   inputs:
     targetType: 'inline'
     script: |
-      srcclr scan /Users/akapur/SupportTesting/example-dotnet --debug --allow-dirty
+      srcclr scan /Users/akapur/SupportTesting/example-dotnet --debug --allow-dirty 
+            |
       
       
 
